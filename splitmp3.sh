@@ -6,7 +6,8 @@
 # split an audio file (that is just under 5 hours long) into half an hour chunks using ffmpeg, into a folder called “split”
 # [rmolenkamp@ThinkpadT510 Muziek]$ cat splitmp3.sh 
 #!/bin/bash
-
+# Installeer eventueel eerst ffmpeg
+# yum -y install ffmpeg
 # Check eerst met ffmpeg -i <mp3 file> de lengte van het bestand en zet
 # dan de variabele MAX
 
